@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AnimatedSvgComponent } from './animated-svg/animated-svg.component';
 
@@ -11,8 +10,7 @@ import { AnimatedSvgComponent } from './animated-svg/animated-svg.component';
     AnimatedSvgComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
