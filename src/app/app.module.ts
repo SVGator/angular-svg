@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FerrisWheelComponent } from './ferris-wheel/ferris-wheel.component';
+import { SvgatorLogoComponent } from './svgator-logo/svgator-logo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FerrisWheelComponent,
+    SvgatorLogoComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
