@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { AnimatedSvgComponent } from './animated-svg/animated-svg.component';
+import { FerrisWheelComponent } from './ferris-wheel/ferris-wheel.component';
+import { SvgatorLogoComponent } from './svgator-logo/svgator-logo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AnimatedSvgComponent
+    FerrisWheelComponent,
+    SvgatorLogoComponent
   ],
   imports: [
     BrowserModule
