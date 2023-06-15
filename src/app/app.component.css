@@ -1,0 +1,19 @@
+.object-animation {
+    left: 2%;
+    position: absolute;
+    top: 30%;
+    width: 25%;
+}
+
+.object-animation object {
+    border-radius: 25px;
+}
+
+app-svgator-logo {
+    background: #1976d2;
+    border-radius: 5px;
+}
+
+.content > h2, .content > p, .white {
+    color: #eee;
+}
